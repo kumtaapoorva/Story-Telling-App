@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".s5"
+    android:background="@drawable/image">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#80000000"
+            android:elevation="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="17dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingRight="20dp"
+                android:paddingBottom="8dp"
+                android:text="The Golden Goose"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/speak_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="Read the story"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:background="@drawable/btn1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="140dp"
+                android:layout_marginBottom="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/im5"
+
+                />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/cv1"
+            android:backgroundTint="#80000000"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="7dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="8dp"
+                android:textSize="25sp"
+                android:textColor="#FBFBFB"
+                android:text="There lived a goose, special one as that, in a lake. It had beautiful golden feathers.\n\n
+
+Near the lake lived an old woman with her daughters. Even though they worked hard, they remained poor.\n\n
+
+One day, the goose thought: Maybe I can give one golden feather every day so that these women can sell it and have enough money to live.\n\n
+
+The next day, the goose went to the old woman.\n\n
+
+“I have nothing to give you!” said the old woman.\n\n
+
+“But, I have something for you!” said the goose and explained what she can do!\n\n
+
+The old woman and her daughters went to the market to sell the golden feather. That day, they came back happy with enough money on hand.\n\n
+
+Day after day, the goose continued to help the old woman and her daughters. The daughters loved to play with the bird and would take care of it on rainy and cold days!\n\n
+
+As time went by, the old woman became more greedy! How can one feather help her?\n\n
+
+“When the goose comes by tomorrow, we should pluck all of its feathers!” she told her daughters.\n\n
+
+Aghast, they refused to help her with this.\n\n
+
+The next day, the old woman waited for the goose to arrive. As soon as the bird arrived, it held by its next and began to pluck at its feathers.\n\n
+
+As soon as she plucked them, the feathers turned white. The old woman wailed and let go of the goose.\n\n
+
+“You have been greedy! When you plucked my golden feathers without my wish, they turned white!”\n\n
+
+The angry goose flew away never to be seen again!\n\n
+
+Moral of the story
+Too much greed leads to a lot of loss. It is good to not steal from others or wish for others out of selfishness."
+                />
+
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".s3"
+    android:background="@drawable/image">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#80000000"
+            android:elevation="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="17dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingRight="20dp"
+                android:paddingBottom="8dp"
+
+                android:text="The Thirsty Crow"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/speak_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="Read the story"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:background="@drawable/btn1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="140dp"
+                android:layout_marginBottom="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/im3"
+
+                />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/cv1"
+            android:backgroundTint="#80000000"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="7dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="8dp"
+                android:textSize="25sp"
+                android:textColor="#FBFBFB"
+                android:text="During the summer season, many ponds and lake beds lay dry. Birds flew far and wide in search of water.\n\n
+
+One such bird was this crow who saw a pot filled with water at the bottom.\n\n
+
+It try to reach for the water with its beak, but the neck of the pot was narrow.\n\n
+
+The crow tried to jostle the pot again and again but to no avail.\n\n
+
+Soon, as the crow was too tired to try. It was too thirsty to fly.\n\n
+
+Suddenly, the thirsty crow had an idea!\n\n
+
+Plop! Plip! Plop! It began to drop pebbles into the pot.\n\n
+
+Slowly, the water rose up and up.\n\n
+
+The crow continued to drop the pebbles until its beak could reach the water.\n\n
+
+At last, the thirsty crow was able to quench its thirst!\n\n
+
+Moral of the story:\n\n
+No matter what you face, patience and intelligence can always help you find your solution! Never give up easily!"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

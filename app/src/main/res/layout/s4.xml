@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".s4"
+    android:background="@drawable/image">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#80000000"
+            android:elevation="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="17dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingRight="20dp"
+                android:paddingBottom="8dp"
+                android:text="Tenali Rama And The Thieves"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/speak_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="Read the story"
+                android:textColor="#000000"
+                android:textSize="20sp"
+               android:background="@drawable/btn1"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="140dp"
+                android:layout_marginBottom="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/im4"
+
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/cv1"
+            android:backgroundTint="#80000000"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="7dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="8dp"
+                android:textSize="25sp"
+                android:textColor="#FBFBFB"
+                android:text="In Vijayanagara, there were many incidents of thefts lately. King Krishnadevaraya was worried about the thieves.\n\n
+
+Everyone in the court, including Tenali Rama, seemed worried!\n\n
+
+That evening as he walked back from the court to his home, he noticed two figures hidden behind the big mango tree near the well in his garden.\n\n
+
+Hmmm! I must teach them a lesson, he thought as he reached home.\n\n
+
+Once home, he spoke so loudly that the thieves were startled, but could hear what he was telling his wife:\n\n
+
+“… it’s not safe to keep our jewellery at home. Please fill our iron trunk with your jewellery and we dropped it into the well for safekeeping!”\n\n
+
+As the robbers sniggered at the idea of an idiot’s plan, Tenali Rama whispered to his wife that thieves were hiding in the garden. He asks to fill the trunk with stones and pots.\n\n
+
+Once the trunk was filled, Tenali Rama and his wife drag the trunk and drop it in the well.\n\n
+
+“It will be safe here!” he told his wife loudly.\n\n
+
+The two thieves waited for the people at home to sleep. They had a plan!\n\n
+
+Each robber took turns to draw water from the well.\n\n
+
+Their excitement soon turned into tiredness and they decided to take a break.\n\n
+
+Just then, someone said:\n\n
+
+“That’s all! The garden is watered, you have done the good deed for the day!”\n\n
+
+The robbers looked around to see Tenali Rama holding a shovel and stick.\n\n
+
+Shocked, they rose and ran away!\n\n
+
+Not long after, the people of Vijayanagara didn’t complain of any robbery.\n\n
+
+Moral of the story:\n\n
+It is better to stay calm and find a solution to a problem."
+                />
+
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".s6"
+    android:background="@drawable/image">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#80000000"
+            android:elevation="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="17dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingRight="20dp"
+                android:paddingBottom="8dp"
+                android:text="The Fox And The Grapes"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/speak_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="Read the story"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:background="@drawable/btn1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="140dp"
+                android:layout_marginBottom="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/im6"
+
+                />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/cv1"
+            android:backgroundTint="#80000000"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="7dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="8dp"
+                android:textSize="25sp"
+                android:textColor="#FBFBFB"
+                android:text="A fox passing through the jungle smells something sweet.\n\n
+
+It follows the scent to find rows of grapes high above in the vines.\n\n
+
+“Oh, wouldn’t it be nice to each a bunch of these delicious grapes?” the fox said.\n\n
+
+It jumped this way and that way trying to catch a bunch of grapes.\n\n
+
+It jumped as high as it could. But, the fox couldn’t reach any bunch of grapes.\n\n
+
+Tired from all the jumping, the fox decided to rest for a bit.\n\n
+
+“Oh these grapes, wish I could reach them. I will try one more time!” whined the fox aloud.\n\n
+
+It tried again to jump as high as it could muster.\n\n
+
+But, the grapes remained unreachable.\n\n
+
+“Maybe the grapes are not sweet but they are sour!” said the fox.\n\n
+
+It turned around and walked away in a sour mood!\n\n
+
+Moral of the story:
+It is easy to give up on doing something but it takes hard work and determination to reach goals. When one cannot attain it, one becomes bitter about it."
+                />
+
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</ScrollView>
